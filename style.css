@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  position: relative;
+}
+.overlay {
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.8;
+  position: fixed;
+  display: none;
+}
+.modal {
+  display: flex;
+  max-width: 600px;
+  width: 500px;
+  padding: 20px;
+  flex-direction: column;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  border-radius: 10px;
+}
+.modalCloseBtn {
+  display: flex;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  padding: 2px;
+  width: 30px;
+  height: 30px;
+  border-radius: 10px;
+  align-items: center;
+  display: block;
+  background-color: rgb(129, 175, 214);
+  border: none;
+  cursor: pointer;
+}
+.modalBtn {
+  margin: 20px 100px;
+  width: 200px;
+  height: 40px;
+  align-items: center;
+  display: block;
+  background-color: rgb(129, 175, 214);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 15px;
+}
+.modalCloseBtn:hover {
+  background-color: blueviolet;
+}
+.modalBtn:hover {
+  background-color: blueviolet;
+}
+.inputAll {
+  margin: 20px 100px;
+  width: 400px;
+  height: 40px;
+  border: 1px solid blue;
+  border-radius: 5px;
+  padding: 0px 10px;
+}
+h2 {
+  margin: 30px 100px 10px 100px;
+  width: 400px;
+  height: 40px;
+  border-top: 1px dashed blue;
+}
+.avarageSec {
+  display: flex;
+  margin: 20px 100px;
+  align-items: center;
+  gap: 15px;
+}
+.avarageSec span {
+  font-size: 20px;
+}
